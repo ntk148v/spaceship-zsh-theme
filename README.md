@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/denysdovhan/spaceship-zsh-theme">
+  <a href="https://github.com/ntk148v/spaceship-zsh-theme">
     <img alt="spaceship →~ prompt" src="https://cloud.githubusercontent.com/assets/3459374/21679181/46e24706-d34b-11e6-82ee-5efb3d2ba70f.png" width="400">
   </a>
 </p>
@@ -69,7 +69,7 @@ Currently it shows:
 * Optional time stamps 12/24hr in format ([how to enable](#time-time)).
 * Execution time of the last command if it exceeds the set threshold.
 
-Want more features? Please, [open an issue](https://github.com/denysdovhan/spaceship-zsh-theme/issues/new) or send pull request.
+Want more features? Please, [open an issue](https://github.com/ntk148v/spaceship-zsh-theme/issues/new) or send pull request.
 
 ## Preview
 
@@ -77,7 +77,7 @@ Want more features? Please, [open an issue](https://github.com/denysdovhan/space
   <img alt="Spaceship with Hyper and One Dark" src="./preview.gif" width="980px">
 </p>
 
-You can find more examples with different color schemes in [Screenshots](https://github.com/denysdovhan/spaceship-zsh-theme/wiki/Screenshots) wiki-page.
+You can find more examples with different color schemes in [Screenshots](https://github.com/ntk148v/spaceship-zsh-theme/wiki/Screenshots) wiki-page.
 
 ## Requirements
 
@@ -103,13 +103,13 @@ Done. This command should link `spaceship.zsh-theme` to your `$ZSH_CUSTOM/themes
 Installing using **curl**:
 
 ```zsh
-curl -o - https://raw.githubusercontent.com/denysdovhan/spaceship-zsh-theme/master/install.zsh | zsh
+curl -o - https://raw.githubusercontent.com/ntk148v/spaceship-zsh-theme/master/install.zsh | zsh
 ```
 
 Installing using **wget**:
 
 ```zsh
-wget -O - https://raw.githubusercontent.com/denysdovhan/spaceship-zsh-theme/master/install.zsh | zsh
+wget -O - https://raw.githubusercontent.com/ntk148v/spaceship-zsh-theme/master/install.zsh | zsh
 ```
 
 ### [antigen]
@@ -117,7 +117,7 @@ wget -O - https://raw.githubusercontent.com/denysdovhan/spaceship-zsh-theme/mast
 Add the following snippet `~/.zshrc` after the line `antigen use oh-my-zsh`:
 
 ```
-antigen theme https://github.com/denysdovhan/spaceship-zsh-theme spaceship
+antigen theme https://github.com/ntk148v/spaceship-zsh-theme spaceship
 ```
 
 ### [antibody]
@@ -125,7 +125,7 @@ antigen theme https://github.com/denysdovhan/spaceship-zsh-theme spaceship
 Update your `.zshrc` file with the following line:
 
 ```
-antibody bundle denysdovhan/spaceship-zsh-theme
+antibody bundle ntk148v/spaceship-zsh-theme
 ```
 
 ### [zgen]
@@ -133,7 +133,7 @@ antibody bundle denysdovhan/spaceship-zsh-theme
 Add the following line to your `~/.zshrc` where you're adding your other zsh plugins:
 
 ```
-zgen load denysdovhan/spaceship-zsh-theme spaceship
+zgen load ntk148v/spaceship-zsh-theme spaceship
 ```
 
 ### [zplug]
@@ -141,14 +141,14 @@ zgen load denysdovhan/spaceship-zsh-theme spaceship
 Use this command in your `.zshrc` to load Spaceship as prompt theme:
 
 ```
-zplug denysdovhan/spaceship-zsh-theme, use:spaceship.zsh, from:github, as:theme
+zplug ntk148v/spaceship-zsh-theme, use:spaceship.zsh, from:github, as:theme
 ```
 
 ### Manual
 
 If you have problems with approches above, follow these instructions:
 
-1. Download the theme [here](https://raw.githubusercontent.com/denysdovhan/spaceship-zsh-theme/master/spaceship.zsh)
+1. Download the theme [here](https://raw.githubusercontent.com/ntk148v/spaceship-zsh-theme/master/spaceship.zsh)
 2. Rename `spaceship.zsh` to `spaceship.zsh-theme`
 3. Put the file `spaceship.zsh-theme` in `$ZSH_CUSTOM/themes/`
 4. Add the line to your `~/.zshrc`: `ZSH_THEME="spaceship"`
@@ -157,7 +157,7 @@ If you have problems with approches above, follow these instructions:
 
 Now you have ability to disable elements of Spaceship. All options must be overridden in your `.zshrc` file.
 
-Take a look at popular option presets or share your own configuration in [Presets](https://github.com/denysdovhan/spaceship-zsh-theme/wiki/Presets) wiki page.
+Take a look at popular option presets or share your own configuration in [Presets](https://github.com/ntk148v/spaceship-zsh-theme/wiki/Presets) wiki page.
 
 ### Order
 
@@ -950,7 +950,7 @@ I would appreciate your support! _Thank you!_
 
 ## License
 
-MIT © [Denys Dovhan](http://denysdovhan.com)
+MIT © [Denys Dovhan](http://ntk148v.com)
 
 <!-- Badges -->
 
@@ -963,7 +963,7 @@ MIT © [Denys Dovhan](http://denysdovhan.com)
 [omz-url]: http://ohmyz.sh/
 [omz-image]: https://img.shields.io/badge/dependency-oh--my--zsh-c5d928.svg?style=flat-square
 
-[donate-readme]: https://github.com/denysdovhan/spaceship-zsh-theme#donate
+[donate-readme]: https://github.com/ntk148v/spaceship-zsh-theme#donate
 [donate-card-url]: https://www.liqpay.com/en/checkout/380951100392
 [donate-card-image]: https://img.shields.io/badge/donate-LiqPay-blue.svg?style=flat-square
 [donate-btc-image]: https://img.shields.io/badge/donate-BTC-yellow.svg?style=flat-square
